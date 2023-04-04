@@ -1,5 +1,6 @@
 # FKWallet-PHP-Class
-PHP class for interacting with API FKWallet
+PHP class for interacting with API FKWallet<br>
+[Official documentation](https://docs.freekassa.ru/#tag/Opisanie-API)
 # Usage
 ```php
 require 'FKWallet.php';
