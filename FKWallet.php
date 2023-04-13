@@ -1,16 +1,32 @@
 <?php
 
-/*
- * Author: pligin
- * Site: psweb.ru
- * Telegram: t.me/pligin
+/**
+ * FKWallet PHP Class
+ * @version 1.0.0
+ *
+ * @link          https://psweb.ru/resources/fkwallet-php-class.920/
+ * @author        pligin <i@psweb.ru>
+ * @copyright     Copyright (c) 2023, PSWeb.ru
+ * @site          https://psweb.ru
  */
 
 class FKWallet {
     
+    /**
+     * @var string $_url Endpoint
+     */
     private $_url = 'https://fkwallet.com/api_v1.php';
+    /**
+     * @var string $_wallet Wallet of FKWallet
+     */
     private $_wallet = NULL;
+    /**
+     * @var string $_key API Access Key
+     */
     private $_key = NULL;
+    /**
+     * @var bool $_json Return Type
+     */
     private $_json = true;
     
     public function __construct($wallet,$apiKey,$json = true){
